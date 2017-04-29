@@ -8,5 +8,10 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		new LwjglApplication(new Main(), config);
+
+		config.title = "Phisics Simulation";
+        config.resizable = false;
+        config.height = 600;
+        config.width = 800;
 	}
 }
